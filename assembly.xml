@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly>
+	<id>ngsp-web</id>
+	<formats>
+		<format>tar.gz</format>
+	</formats>
+	<fileSets>
+		<fileSet>
+		    <directory>${project.basedir}/src/main/resources</directory>
+		    <outputDirectory>/</outputDirectory>
+		    <excludes>
+		       <exclude>/ngsp/node_modules/**</exclude>
+		       <exclude>/ngsp/src/**</exclude>
+		       <exclude>/ngsp/build/**</exclude>
+		       <exclude>/ngsp/config/**</exclude>
+		       <exclude>/ngsp/static/**</exclude>
+		       <exclude>/ngsp/package.json</exclude>
+		       <exclude>/ngsp/README.md</exclude>
+		    </excludes>
+		    <includes>
+		       <include>/ngsp/dist/**</include>
+		       <include>/ngsp/attachment/**</include>
+		    </includes>
+		</fileSet>
+		<fileSet>
+		    <directory>${project.basedir}/src/main/docker</directory>
+		    <outputDirectory>/docker/</outputDirectory>
+		</fileSet>
+	</fileSets>
+</assembly>

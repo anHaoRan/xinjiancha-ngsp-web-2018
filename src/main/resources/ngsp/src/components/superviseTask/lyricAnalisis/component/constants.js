@@ -1,0 +1,264 @@
+export const sourceFromOptions = [
+  {
+    value: '证券行业三大报',
+    label: '证券行业三大报',
+    children: [{
+      value: '中国证券报',
+      label: '中国证券报'
+    }, {
+      value: '证券时报',
+      label: '证券时报'
+    }, {
+      value: '上海证券报',
+      label: '上海证券报'
+    }]
+  }, {
+    value: '主流财经媒体门户网站',
+    label: '主流财经媒体门户网站',
+    children: [{
+      value: '新浪网',
+      label: '新浪网'
+    }, {
+      value: '和讯网',
+      label: '和讯网'
+    }, {
+      value: '网易',
+      label: '网易'
+    }, {
+      value: '搜狐网',
+      label: '搜狐网'
+    }, {
+      value: '凤凰网',
+      label: '凤凰网'
+    }, {
+      value: '腾讯网',
+      label: '腾讯网'
+    }, {
+      value: '东方财富网',
+      label: '东方财富网'
+    }, {
+      value: '中国经济网',
+      label: '中国经济网'
+    }, {
+      value: '金融界',
+      label: '金融界'
+    }, {
+      value: 'FT中文网',
+      label: 'FT中文网'
+    }, {
+      value: '同花顺',
+      label: '同花顺'
+    }, {
+      value: '财新网',
+      label: '财新网'
+    }, {
+      value: '财界网',
+      label: '财界网'
+    }, {
+      value: '财经网',
+      label: '财经网'
+    }, {
+      value: '湖南经济网',
+      label: '湖南经济网'
+    }, {
+      value: '全景网',
+      label: '全景网'
+    }, {
+      value: '中证网',
+      label: '中证网'
+    }, {
+      value: '证券之星',
+      label: '证券之星'
+    }, {
+      value: '观察者网',
+      label: '观察者网'
+    }, {
+      value: '赢商网',
+      label: '赢商网'
+    }, {
+      value: '华尔街见闻',
+      label: '华尔街见闻'
+    }, {
+      value: '牛仔网',
+      label: '牛仔网'
+    }, {
+      value: '股城网',
+      label: '股城网'
+    }]
+  }, {
+    value: '民间论坛股吧',
+    label: '民间论坛股吧',
+    children: [{
+      value: '新浪股吧',
+      label: '新浪股吧'
+    }, {
+      value: '东方财富网股吧',
+      label: '东方财富网股吧'
+    }, {
+      value: '和讯股吧',
+      label: '和讯股吧'
+    }]
+  }, {
+    value: 'APP',
+    label: 'APP',
+    children: [{
+      value: '益盟操盘手',
+      label: '益盟操盘手'
+    }, {
+      value: '红马甲',
+      label: '红马甲'
+    }, {
+      value: '同花顺',
+      label: '同花顺'
+    }, {
+      value: 'AAStocks 掌上财经',
+      label: 'AAStocks 掌上财经'
+    }, {
+      value: '和讯基金',
+      label: '和讯基金'
+    }, {
+      value: '和讯外汇',
+      label: '和讯外汇'
+    }, {
+      value: '掌上贵金属',
+      label: '掌上贵金属'
+    }, {
+      value: '中国金融网',
+      label: '中国金融网'
+    }, {
+      value: '数米基金',
+      label: '数米基金'
+    }, {
+      value: '掌上金融网',
+      label: '掌上金融网'
+    }, {
+      value: '和讯股票',
+      label: '和讯股票'
+    }, {
+      value: '大智慧',
+      label: '大智慧'
+    }, {
+      value: '优顾理财',
+      label: '优顾理财'
+    }, {
+      value: '健丰贵金融行情软件',
+      label: '健丰贵金融行情软件'
+    }, {
+      value: '融360贷款',
+      label: '融360贷款'
+    }, {
+      value: '大数据贵金融',
+      label: '大数据贵金融'
+    }]
+  }, {
+    value: '香港平面媒体',
+    label: '香港平面媒体',
+    children: [{
+      value: '香港商报',
+      label: '香港商报'
+    }, {
+      value: '信报财经新闻',
+      label: '信报财经新闻'
+    }, {
+      value: '香港经济日报',
+      label: '香港经济日报'
+    }, {
+      value: '明报',
+      label: '明报'
+    }, {
+      value: '东方日报',
+      label: '东方日报'
+    }, {
+      value: '星岛日报',
+      label: '星岛日报'
+    }]
+  }, {
+    value: '香港网络媒体',
+    label: '香港网络媒体',
+    children: [{
+      value: 'NOW免费实时资讯网站',
+      label: 'NOW免费实时资讯网站'
+    }, {
+      value: '信报',
+      label: '信报'
+    }, {
+      value: '香港经济日报',
+      label: '香港经济日报'
+    }, {
+      value: '头条日报',
+      label: '头条日报'
+    }, {
+      value: '大公报',
+      label: '大公报'
+    }, {
+      value: '文汇报',
+      label: '文汇报'
+    }, {
+      value: '阿斯达克财经网',
+      label: '阿斯达克财经网'
+    }, {
+      value: '经济通',
+      label: '经济通'
+    }, {
+      value: '财华网',
+      label: '财华网'
+    }]
+  }]
+export const sourceTypeOptions = ['个股信息', '热点报道', '宏观信息', '市场信息', '研究报告']
+export const featureDescOptions = [{
+  value: '涨跌幅',
+  label: '涨跌幅'
+}, {
+  value: '舆论关注',
+  label: '舆论关注'
+}, {
+  value: '领导讲话',
+  label: '领导讲话'
+}, {
+  value: '处罚结果',
+  label: '处罚结果'
+}, {
+  value: '质疑-内幕',
+  label: '质疑-内幕'
+}, {
+  value: '质疑-操纵',
+  label: '质疑-操纵'
+}, {
+  value: '质疑-老鼠仓',
+  label: '质疑-老鼠仓'
+}, {
+  value: '质疑-对倒',
+  label: '质疑-对倒'
+}, {
+  value: '质疑-大宗交易',
+  label: '质疑-大宗交易'
+}, {
+  value: '其他',
+  label: '其他'
+}]
+export const roleOptions = [{
+  value: '实时监控一组',
+  label: '实时监控一组'
+}, {
+  value: '实时监控二组',
+  label: '实时监控二组'
+}, {
+  value: '实时监控三组',
+  label: '实时监控三组'
+}, {
+  value: '线索分析一组',
+  label: '线索分析一组'
+}, {
+  value: '线索分析二组',
+  label: '线索分析二组'
+}, {
+  value: '市场分析组',
+  label: '市场分析组'
+}, {
+  value: '技术支持组',
+  label: '技术支持组'
+}, {
+  value: '综合业务组',
+  label: '综合业务组'
+}]
+export const clueTypeOptions = ['内幕交易', '市场操纵', '利益输送—股票', '利益输送—债券', '超比例持股', '老鼠仓', '短线交易', '其它-股票', '其它—债券']

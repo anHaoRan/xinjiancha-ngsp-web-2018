@@ -1,0 +1,11 @@
+export const theme_dark = {
+	"color": [
+		"blue",
+		"red",
+		"yellow",
+		"gray",
+		"orange",
+		"white"
+	],
+	"backgroundColor": "black"
+}

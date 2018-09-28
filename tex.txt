@@ -1,0 +1,8 @@
+
+上交所--新检查一期项目开发--模拟数据
+echo "# shangjiaosuo-xinjiancha-2018" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/zghgit/shangjiaosuo-xinjiancha-2018.git
+git push -u origin master

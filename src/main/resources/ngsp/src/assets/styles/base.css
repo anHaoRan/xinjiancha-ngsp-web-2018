@@ -1,0 +1,109 @@
+/* ===========
+   Common Style
+ =============*/
+
+html {
+  position: relative;
+  height: 100%;
+  font-family: Arial, 'microsoft Yahei', 'Avenir', Helvetica, sans-serif;
+}
+
+body {
+  height: 100%;
+  font-size: 14px;
+}
+
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100%;
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+  content: "."; /*内容为“.”就是一个英文的句号而已。也可以不写。*/
+  display: block; /*加入的这个元素转换为块级元素。*/
+  clear: both; /*清除左右两边浮动。*/
+  visibility: hidden; /*可见度设为隐藏。注意它和display:none;是有区别的。visibility:hidden;仍然占据空间，只是看不到而已；*/
+  line-height: 0; /*行高为0；*/
+  height: 0; /*高度为0；*/
+  font-size: 0; /*字体大小为0；*/
+}
+
+/* 数据涨跌颜色 */
+.up {
+  color: #ff4a36 !important;
+}
+
+.down {
+  color: #19b148 !important;
+}
+
+.zero {
+  color: #7b90ba !important;
+}
+
+/*交易量颜色*/
+.volume {
+  color: #3a8ce9 !important;
+}
+
+/*交易额颜色*/
+.turnover {
+  color: #cc9933 !important;
+}
+
+.fr {
+  float: right;
+}
+
+.bn {
+  border: none;
+}
+.mustInput{
+  line-height: 32px;
+  font-size: 14px;
+  color: #ff402b;
+  position: relative;
+  right: 3px;
+  top: 3px;
+}
+i{
+  font-style: normal;
+}
+/*form表单input输入框自适应宽度及内容超出显示省略号*/
+.el-form-input{
+  width:auto;
+}
+.el-form-input .el-input__inner{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/*表格标题样式*/
+.table-title {
+  height: 30px;
+  background-color: transparent;
+  color: #fff;
+  line-height: 30px;
+  border-radius: 4px 4px 0px 0px;
+  text-indent: 10px;
+}
+/*步骤条*/
+.el-step__title.is-process {
+  color: #409eff;
+}
+.el-step__description.is-process {
+  color: #409eff;
+}
+/*超链接公共样式*/
+.link-common-css {
+  text-decoration: underline;
+  color: #409eff;
+  cursor: pointer;
+}
